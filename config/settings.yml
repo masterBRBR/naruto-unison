@@ -31,12 +31,12 @@ detailed-logging: false
 # See https://github.com/yesodweb/yesod/wiki/Configuration#parsing-numeric-values-as-strings
 
 database:
-    user:     "_env:YESOD_PGUSER:naruto-unison"
-    password: "_env:YESOD_PGPASS:naruto-unison"
+    user:     "_env:YESOD_PGUSER:naruto_unison"
+    password: "_env:YESOD_PGPASS:naruto_unison"
     host:     "_env:YESOD_PGHOST:localhost"
     port:     "_env:YESOD_PGPORT:5432"
     # See config/test-settings.yml for an override during tests
-    database: "_env:YESOD_PGDATABASE:naruto-unison"
+    database: "_env:YESOD_PGDATABASE:naruto_unison"
     poolsize: "_env:YESOD_PGPOOLSIZE:10"
 
 copyright: BSD-3
